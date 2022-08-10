@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import Logo from '../assets/logo_pink.png';
+import Logo from '../assets/marca_ok.png';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -11,9 +11,9 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[130px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 '>
-      <div className='pt-20'>
-        <img src={Logo} alt='LogoMS' style={{ width: '300px' }} />
+    <div className='fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#ffff] text-[#000000] '>
+      <div className='pt-4.5 px-4'>
+        <img src={Logo} alt='LogoMS' style={{ width: '200px' }} />
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -55,7 +55,7 @@ const NavBar = () => {
       <ul className={
         !nav
           ? 'hidden'
-          : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+          : 'absolute top-0 left-0 w-full h-screen bg-[#363636] flex flex-col justify-center items-center  text-gray-300'}>
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
