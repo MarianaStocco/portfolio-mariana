@@ -20,7 +20,7 @@ export const Work = () => {
                     {/* Grid Item */}
                     <div
                         style={{ backgroundImage: `url(${Portfolio})` }}
-                        className='group shadow-lg shadow-[#D0C18F] container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='group shadow-lg  container  flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -29,12 +29,12 @@ export const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
                                 </a>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
                                 </a>
@@ -43,7 +43,7 @@ export const Work = () => {
                     </div>
                     <div
                         style={{ backgroundImage: `url(${Countries})` }}
-                        className='shadow-lg shadow-[#D0C18F] group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg  group container  flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -52,12 +52,12 @@ export const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
                                 </a>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
                                 </a>
@@ -67,7 +67,7 @@ export const Work = () => {
                     {/* Grid Item */}
                     <div
                         style={{ backgroundImage: `url(${Pokemon})` }}
-                        className='shadow-lg shadow-[#D0C18F] group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg  group container  flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -76,12 +76,12 @@ export const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
                                 </a>
                                 <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
                                 </a>
@@ -90,7 +90,7 @@ export const Work = () => {
                     </div>
                     <div
                         style={{ backgroundImage: `url(${Countries})` }}
-                        className='shadow-lg shadow-[#D0C18F] group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg  group container  flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
