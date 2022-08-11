@@ -1,6 +1,7 @@
 import React from 'react';
 import Pokemon from '../assets/pokemon1.png';
 import Countries from '../assets/countries1.png';
+import Portfolio from '../assets/portfolio.png';
 
 export const Work = () => {
     return (
@@ -18,7 +19,7 @@ export const Work = () => {
 
                     {/* Grid Item */}
                     <div
-                        style={{ backgroundImage: `url(${Pokemon})` }}
+                        style={{ backgroundImage: `url(${Portfolio})` }}
                         className='group shadow-lg shadow-[#D0C18F] container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
@@ -46,7 +47,7 @@ export const Work = () => {
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-center text-2xl font-bold text-white tracking-wider'>
                                 React JS Application
                             </span>
                             <div className='pt-8 text-center'>
