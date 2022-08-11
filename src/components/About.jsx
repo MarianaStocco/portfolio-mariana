@@ -18,6 +18,9 @@ export const About = () => {
                 <div className='sm:text-left text-4xl font-bold text-[#04fb04]'>
                   <p>Hi. I'm Mariana, nice to meet you. Please take a look around.</p>
                   <img className='w-[250px] mx-6 my-4 items-center' src={Profile} alt='perfil'></img>
+                  <div>
+                    <p className='text-center sm:text-left text-[10px] mx-6  font-thin text-white'>artwork by Mariano Valdivieso</p>
+                  </div>
                 </div>
                 <div>
                   <p>From an early age I was in search of a purpose in my life and I always found the answers in creativity and art.
