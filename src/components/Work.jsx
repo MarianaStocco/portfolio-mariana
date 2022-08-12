@@ -34,7 +34,7 @@ export const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/MarianaStocco/portfolio-mariana'>
                                     <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -81,7 +81,7 @@ export const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/MarianaStocco/PI-Pokemon-main'>
                                     <button className='text-center  px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -104,7 +104,7 @@ export const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/MarianaStocco/PI-Countries-main'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
