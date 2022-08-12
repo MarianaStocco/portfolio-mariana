@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/mariana.jpg'
+import Profile from '../assets/profile.jpg'
 
 export const About = () => {
     return (
@@ -23,11 +23,11 @@ export const About = () => {
                   </div>
                 </div>
                 <div>
-                  <p>From an early age I was in search of a purpose in my life and I always found the answers in creativity and art.
-I found what I was looking for in each area I ventured into: create to my liking, perfect the technique, feel proud of myself for the achievement and, above all, realize that I could always learn more, acquire more and better skills.
-Drawing, painting, design, knitting... when I discovered JavaScript I couldn't help but compare its learning process to crochet: the way to hold the needle, the necessary thread tension. Learn appropriate techniques, the indispensable repetition of them to strengthen them to finally obtain a final product, which at first was rudimentary and with perseverance and effort became something acceptable to later become unique, beautiful and functional.
-The wide world of development, the almost infinite possibilities and the combination of technologies it offers, is exactly what attracted me and fell in love with it. Being able to create products that help people and allow me, in turn, to grow personally, professionally and creatively.
-I am a full stack developer, I am an artist and creative, I am the right person for the development of the application you need.</p>  
+                  <p>From an early age, I have been in the search of a life purpose, and somehow I always found myself turning to the artistic and creative side of me to find all the answers.
+ I found what I was looking for in each new area I ventured into: create something as I pleased, perfect my techniques, feel proud of my sense of achievement, and above all, realize that I could always learn more, acquire better and greater skills.
+Drawing, painting, design, crochet... When I discovered JavaScript I couldn’t help to compare its learning process to that of crochet; the way to hold the needle, the necessary tension of the thread. They are also similar in the sense that, you need to learn appropriate techniques- and tirelessly repeat them all- to truly acquire them. At first, the end product seems to be quite rudimentary. With constant effort, it all evolves from something plainly acceptable and nice into something beautifully functional.
+The vast world of a full stack developer; the almost infinite range of possibilities- with the use of combined technology- is exactly what fascinated and attracted me. I love being able to create products that help other people and encourage my professional and personal growth.
+I am a Full Stack Developer, I am a creative artist, I am the right person to develop the applications that you need</p>  
                 </div>
               </div>
           </div>

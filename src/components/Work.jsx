@@ -2,6 +2,7 @@ import React from 'react';
 import Pokemon from '../assets/pokemon1.png';
 import Countries from '../assets/countries1.png';
 import Portfolio from '../assets/portfolio.png';
+import NetflixClone from '../assets/netflix.png';
 
 export const Work = () => {
     return (
@@ -24,8 +25,8 @@ export const Work = () => {
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-1xl font-bold text-white tracking-wider'>
+                                Portfolio responsive React JS
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -42,13 +43,13 @@ export const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${Countries})` }}
+                        style={{ backgroundImage: `url(${NetflixClone})` }}
                         className='shadow-lg  group container  flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-center text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-center text-21xl font-bold text-white tracking-wider'>
+                                Netflix clone responsive React JS
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -71,8 +72,8 @@ export const Work = () => {
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-1xl font-bold text-white tracking-wider'>
+                                PokeApp React JS Application
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -94,8 +95,8 @@ export const Work = () => {
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-1xl font-bold text-white tracking-wider'>
+                               CountriesApp React JS Application
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
