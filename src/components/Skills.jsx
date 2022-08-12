@@ -13,7 +13,7 @@ export const Skills = () => {
   return (
     <div name='skills' className='w-full md:h-screen  bg-[#363636] text-white'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div  className='sm:text-left pb-8 ssm:pt-[700px] pl-4'>
+            <div>
                 <p className='text-6xl font-bold inline'>Skills</p>
                 <p className='py-6'>These are the technologies I've worked with</p>
             </div>

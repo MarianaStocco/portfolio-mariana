@@ -8,9 +8,9 @@ export const Contact = () => {
                     <p className='text-6xl font-bold inline text-white'>Contact</p>
                     <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - mariana.stocco@outlook.com</p>
                 </div>
-                <input className='bg-[#dee3f3] p-2' type="text" placeholder='Name' name='name' />
-                <input className='my-4 p-2 bg-[#dee3f3]' type="email" placeholder='Email' name='email' />
-                <textarea className='bg-[#dee3f3] p-2' name="message" rows="10" placeholder='Message'></textarea>
+                <input required className='bg-[#dee3f3] p-2' type="text" placeholder='Name' name='name' />
+                <input required className='my-4 p-2 bg-[#dee3f3]' type="email" placeholder='Email' name='email' />
+                <textarea required minLength={10}className='bg-[#dee3f3] p-2' name="message" rows="10" placeholder='Message'></textarea>
                 <button className='text-white border-2 hover:bg-[#04fb04] hover:border-[#04fb04] hover:text-black px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
             </form>
         </div>
