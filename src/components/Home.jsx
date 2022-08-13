@@ -7,7 +7,7 @@ export const Home = () => {
     <div name='home' className='w-full h-screen bg-[#363636]'>
 
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1000px] ssm:pt-[40px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#04fb04] px-1 font-bold text-2xl'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-white'>
           Mariana Stocco

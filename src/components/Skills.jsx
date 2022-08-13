@@ -11,10 +11,10 @@ import Redux from '../assets/redux.png'
 
 export const Skills = () => {
   return (
-    <div name='skills' className='w-full md:h-screen  bg-[#363636] text-white'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='skills' className=' w-full ssm:grid ssm:grid-cols-1 ssm:pt-[550px]  bg-[#363636] text-white'>
+        <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-6xl font-bold inline'>Skills</p>
+                <p className=' text-6xl font-bold inline'>Skills</p>
                 <p className='py-6'>These are the technologies I've worked with</p>
             </div>
 

@@ -6,10 +6,10 @@ import NetflixClone from '../assets/netflix.png';
 
 export const Work = () => {
     return (
-        <div name='work' className='w-full md:h-screen text-white bg-[#363636]'>
+        <div name='work' className=' w-full md:h-screen text-white bg-[#363636]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-6xl font-bold inline  text-white'>
+                    <p className=' text-6xl font-bold inline  text-white'>
                         Work
                     </p>
                     <p className='py-6'>Check out some of my recent work</p>
